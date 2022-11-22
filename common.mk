@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(call inherit-product, vendor/oneplus/google/google.mk)
 $(call inherit-product, vendor/oneplus/msm8998-common/msm8998-common-vendor.mk)
 
 # APEX
