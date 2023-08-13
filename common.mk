@@ -457,8 +457,3 @@ PRODUCT_COPY_FILES += \
 # RmNet xml config file
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml
-
-# OSS Time service
-PRODUCT_PACKAGES += \
-    timekeep \
-    TimeKeep
