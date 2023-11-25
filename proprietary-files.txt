@@ -619,11 +619,9 @@ vendor/bin/msm_irqbalance
 
 # Peripheral manager
 vendor/bin/pm-proxy
+vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
-
-# Peripheral manager service
-vendor/bin/pm-service|950d6b601c898d61250588c5cca9c9c0
 
 # Power-off alarm - from caymanslm - SKQ1.211103.001
 product/app/PowerOffAlarm/PowerOffAlarm.apk:system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|f0a86fc11b38c059912303857bc4c79155430bcc
